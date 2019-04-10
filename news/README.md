@@ -1,33 +1,5 @@
-# news
+##  制作首页中的App组件
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-## 制作首页中的App组件
 1. 制作header区域用的是mint-ui的header组件
 2. 底部的Tabbar区域使用的是mui的tabbar.html 
   + 在制作购物车小图标的时候步骤多一点，
@@ -40,3 +12,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## 设置路由高亮
 
 ## 点击tabbar中的路由连接，展示各自路由组件
+
+## 今天的任务到此结束，马上学习如何用php写api接口！
+

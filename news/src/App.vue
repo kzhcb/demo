@@ -2,8 +2,8 @@
   <div id="app">
     <!-- header区域 -->
     <mt-header fixed title="黑马程序员-qz10期" class="header-title"></mt-header>
- <h1>123</h1>
   <!-- 中间区域 -->
+  <router-view></router-view>
   <!-- footer区域 -->
   <nav class="mui-bar mui-bar-tab">
 			<router-link class="mui-tab-item " to="/home">
@@ -44,5 +44,10 @@ export default {
   #app{
     padding-top: 40px;
   }
-
+  .router-link-active{
+   background-color: #c3c7cb;
+  }
+  .mui-bar-tab{
+    border-top:1px  solid #c1c9d1;
+  }
 </style>

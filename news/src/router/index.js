@@ -1,8 +1,8 @@
 import VueRouter from 'vue-router'
-import Home from '../components/pages/Home.vue'
-import Member from '../components/pages/Member.vue'
-import Shopcar from '../components/pages/Shopcar.vue'
-import Search from '../components/pages/Search.vue'
+import Member from '../components/tabaar/Member.vue'
+import Home from '../components/tabaar/Home.vue'
+import Shopcar from '../components/tabaar/Shopcar.vue'
+import Search from '../components/tabaar/Search.vue'
 var router = new VueRouter({
     routes:[
       {path:'/',redirect:'/Home'},
@@ -11,6 +11,8 @@ var router = new VueRouter({
       {path:'/shopcar',component:Shopcar},
       {path:'/search',component:Search}
     ],
-    linkActiveClass:'mui-active'//覆盖路由高亮的类，默认的类叫做router-link-active
+    mode:'history',
 })
 export default router
+
+
